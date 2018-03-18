@@ -1,0 +1,18 @@
+{
+  "name": "mbed-js-ble-hr-example",
+  "version": "0.0.1",
+  "description": "Example of heart rate monitor using Grove Earbud sensor in Mbed.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Jongboom <jan.jongboom@arm.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mbed-js-ble": "ARMmbed/mbed-js-ble",
+    "mbed-js-groveearbudsensor": "^1.0.0"
+  },
+  "devDependencies": {
+    "mbed-js-gulp": "git+https://github.com/ARMmbed/mbed-js-gulp.git#c1c566a9c61c6ff53497a4eabfadc2e42f7eb0a6"
+  }
+}
